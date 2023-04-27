@@ -10,7 +10,13 @@ import ShoesStore from './ShoesShop/ShoesStore';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
-  <div className='container'>
+  <div  style={{
+    backgroundImage:"url(/img/background.jpg)",
+    backgroundRepeat:'no-repeat',
+    backgroundSize:'cover',
+    
+    
+}}>
     <ShoesStore/>
   </div>
 );

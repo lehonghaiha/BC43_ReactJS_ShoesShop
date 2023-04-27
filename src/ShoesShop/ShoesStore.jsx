@@ -26,7 +26,7 @@ export default class ShoesStore extends Component {
     render() {
         return (
             <div className='container'>
-                <h3 className='text-center'>SHOES SHOP</h3>
+                <h3 className='text-center fs-2 bg-secondary bg-opacity-75 text-white p-3 m-0 rounded'>SHOES SHOP</h3>
                 <ProductList setStateModal={this.setStateModal} arrProduct={data} />
                 <Modal productDetail={this.state.productDetail}/>
             </div>
